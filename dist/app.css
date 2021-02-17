@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 100vw;
+}
+
+header {
+  background-color: #101010;
+  color: #fff;
+  padding: 15px;
+}
+header .upper-header {
+  font-size: 12px;
+  width: 1170px;
+  margin: 0 auto;
+}
+@media (max-width: 992px) {
+  header .upper-header {
+    width: 100%;
+  }
+}
+header .upper-header ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .upper-header ul li {
+  margin-left: 10px;
+}
+header .upper-header ul li i {
+  color: #009CFF;
+}
+header .lower-header {
+  font-size: 14px;
+}
+header .lower-header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .lower-header ul li .logo {
+  width: 90px;
+}
+header .lower-header ul li .logo img {
+  width: 100%;
+}
+
+.jumbotron {
+  background-image: url(../img/hero-pe-8.jpg);
+  background-position: center;
+  padding: 20px;
+}
+.jumbotron-inner-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+@media (max-width: 992px) {
+  .jumbotron-inner-container {
+    width: 100%;
+  }
+}
+.jumbotron-inner-container .jumbotron-left h1 span {
+  color: #b936b2;
+  font-style: italic;
+}
+.jumbotron-inner-container .jumbotron-left h1 .subtitle {
+  font-size: 24px;
+  font-weight: normal;
+}
+.jumbotron-inner-container .jumbotron-left ul {
+  margin: 25px 0 35px;
+}
+.jumbotron-inner-container .jumbotron-left ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.jumbotron-inner-container .jumbotron-left ul li i {
+  color: #808080;
+}
